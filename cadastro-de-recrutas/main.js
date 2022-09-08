@@ -1,4 +1,5 @@
-//Exercício 1 - "Cadastro de recrutas";
+// Exercício 1 - "Cadastro de recrutas";
+// Exercício básico para armazenamento e uso de variáveis em um prompt.
 
 let name = prompt("Apresente-se, Recruta! Qual é o seu nome?")
 let lastName = prompt("Como te chamaremos, " + name + "? Diga seu sobrenome!")
