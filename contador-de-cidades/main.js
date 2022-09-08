@@ -1,3 +1,7 @@
+// Exercício 4 - "Contador de cidades";
+// Exercício para fixação do uso do WHILE. Tem como objetivo criar um programa que pergunte quantas cidades foram visitadas e seus respectivos nomes e exiba o total de 
+// cidades e seus nomes ao encerrar. 
+
 let name = prompt("Olá, turista. Qual o seu nome?")
 let totalCities = ''
 let countCities = 0
