@@ -1,4 +1,6 @@
 // Exercício 3 - "Conversor de medidas";
+// Exercício para fixação do uso do Switch. Utilizei uma variável constante para armazenar as funções de cada conversão afim de exercitar boas práticas no código, em
+// vez de armazená-las uma em cada respectivo "case". 
 
 let medidaInicial = Number(prompt("Insira a medida em metros."))
 let menu = prompt("Para qual medida deseja converter? \n a) Milímetros \n b) Decímetros \n c) Centímetros \n d) Decâmetros \n e) Hectômetros \n f) Quilômetros")
