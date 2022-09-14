@@ -2,8 +2,10 @@
 // Exercício para fixação da manipulação de arrays. 
 
 let fila = ["Arthur", " Mauro", " Marcos"]
-let menu = Number(prompt("Fila de espera: " + fila + "\n Escolha uma ação: \n 1- Adicionar paciente \n 2- Consultar paciente \n 3- Sair"))
+let menu;
 
+do{
+    menu = Number(prompt("Fila de espera: " + fila + "\n Escolha uma ação: \n 1- Adicionar paciente \n 2- Consultar paciente \n 3- Sair"))
 switch(menu) { 
     case 1: 
     let novoPaciente = prompt("Insira o nome do novo paciente.")
@@ -23,6 +25,5 @@ switch(menu) {
     break
 }
 
-if (menu == 3) { 
-    alert("Encerrando...")
-} 
+} while(menu !==3 ) 
+alert('Encerrando...')
