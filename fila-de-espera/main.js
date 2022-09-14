@@ -1,5 +1,6 @@
 // Exercício 9 - "Fila de espera"
-// Exercício para fixação da manipulação de arrays. 
+// Exercício para fixação da manipulação de arrays. O objetivo é criar um programa que simule uma fila de espera de um consultório médico por ordem de chamada. O programa
+// deve mostrar a fila atual e continuar mostrando o menu de opções até que o usuário escolha a opção 'Sair'.
 
 let fila = ["Arthur", " Mauro", " Marcos"]
 let menu;
